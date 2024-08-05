@@ -23,8 +23,9 @@
         </ol>
         <hr>
         <h1>html공부</h1>
-
+        
         <h2>form - select</h2>
+        엑셀 데이터 유효성 검사와 비슷함<br>
         <select name="">
             <option value="">이동통신사</option>
             <option value="">SKT</option>
@@ -33,13 +34,16 @@
             <option value="" selected="selected">알뜰통신사</option>
         </select>
         <br><br>
+        placeholder는 안내문구 역할, value에 값을 넣으면 초기 실제 값<br>
         <input type="text" name="" value="하이미디어" placeholder="아이디는 이메일 형식"><br><br>
         <!--진짜 본문 내용은 여기에 value가 아님 *앞부분 공백주의  -->
+        input type="text"는 한줄로 입력<br>
+        textarea는 줄바꿈이 되어 여러줄을 입력할 수 있다.<br>
         <textarea placeholder="본문 200자 이내">진짜 본문 내용은 여기에 입력, value가 아님. 태그 사이에 입력</textarea>
         <br><br>
-
-        <fieldset>
-            <legend>개인정보</legend>
+        fieldset : 다른 항목들과 구분을 짓기 위해 사용
+        <fieldset><!-- 디자인 요소가 아니라 단순 구분을 위한 용도-->>
+            <legend>개인정보</legend> <!-- 여기서는 개인정보를 다른 섹터와 구분하기위해서 씀-->
             <label for="uid">아이디</label>
             <input id="uid" type="text" name="" value="" placeholder="아이디를 입력하세요">
             <br>
