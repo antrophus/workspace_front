@@ -1,0 +1,6 @@
+@charset "utf-8";
+/*
+스타일시트 연습
+*/
+h2{ color : #0000ff;} /* 주석은 이렇게 쓴다 */
+li{ color : #ff00ff;}

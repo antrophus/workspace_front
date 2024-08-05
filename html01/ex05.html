@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>html공부</title>
+    </head>
+    <body>
+        목차
+        <ol>
+            <li><a href="./ex01.html">h1 ~ h6 요소</a></li>
+            <li><a href="./ex02.html">p(문단), br(줄바꿈), blockquote q(인용), strong b em i(강조) hr(구분)요소</a></li>
+            <li><a href="./ex03.html">ol 요소</a> </li>
+            <li><a href="./ex04.html"> img 요소 a 요소</a> </li>
+            <li> table 요소</li>
+            <li><a href="./ex06.html"> table 합치기 연습문제1</a> </li>
+            <li><a href="./ex07.html"> table 예제 [게시판]</a> </li>
+            <li><a href="./ex08.html"> table 모든 요소 사용 </a> </li>
+            <li><a href="./ex09.html"> table 합치기 연습문제2</a> </li>
+            <li><a href="./ex10.html"> form - input(text - password) button</a> </li>
+            <li><a href="./ex11.html"> form - input(checkbox, radio)</a> </li>
+            <li><a href="./ex12.html"> form - select</a> </li>
+            <li><a href="./homework01/homework01.html"> 과제(01)_20240803 [인터넷개론]</a></li>
+            <li><a href="./homework01/homework02.html"> 과제(02)_20240803 [이력서]</a></li>
+        </ol>
+        <hr>
+        <h1>html공부</h1>
+
+        <h2>table요소</h2>
+
+        <h3>테이블기본</h3>
+        <table border="1">
+            <tr>
+                <td>data(1,1)</td>
+                <td>data(1,2)</td>
+                <td>data(1,3)</td>
+                <td>data(1,4)</td>
+            </tr>
+            <tr>
+                <td>data(2,1)</td>
+                <td>data(2,2)</td>
+                <td>data(2,3)</td>
+                <td>data(2,4)</td>
+            </tr>
+            <tr>
+                <td>data(3,1)</td>
+                <td>data(3,2)</td>
+                <td>data(3,3)</td>
+                <td>data(3,4)</td>
+            </tr>
+
+        </table>
+
+        <h3>테이블확장- 가로 합치기</h3>
+        <table border="1">
+            <tr>
+                <td>data(1,1)</td>
+                <td>data(1,2)</td>
+                <td>data(1,3)</td>
+                <td>data(1,4)</td>
+            </tr>
+            <tr>
+                <td>data(2,1)</td>
+                <td colspan="2">data(2,2)</td>
+                <!-- data(2,3)을 삭제 하지 않으면 의도와 다른 결과가 나옴-->
+                <td>data(2,4)</td>
+            </tr>
+            <tr>
+                <td>data(3,1)</td>
+                <td>data(3,2)</td>
+                <td>data(3,3)</td>
+                <td>data(3,4)</td>
+            </tr>
+
+        </table>
+        <h3>테이블확장- 가로 합치기2</h3>
+        <table border="1">
+            <tr>
+                <td>data(1,1)</td>
+                <td>data(1,2)</td>
+                <td>data(1,3)</td>
+                <td>data(1,4)</td>
+            </tr>
+            <tr>
+                <td colspan="4">data(2,1)</td>
+                <!-- 삭제 하지 않으면 의도와 다른 결과가 나옴-->
+                <!-- 삭제 하지 않으면 의도와 다른 결과가 나옴-->
+                <!-- 삭제 하지 않으면 의도와 다른 결과가 나옴-->
+            </tr>
+            <tr>
+                <td>data(3,1)</td>
+                <td>data(3,2)</td>
+                <td>data(3,3)</td>
+                <td>data(3,4)</td>
+            </tr>
+
+        </table>
+        <h3>테이블확장- 세로 합치기</h3>
+        <table border="1">
+            <tr>
+                <td rowspan="2">data(1,1)</td>
+                <td>data(1,2)</td>
+                <td>data(1,3)</td>
+                <td>data(1,4)</td>
+            </tr>
+            <tr>
+                <!-- data(2,1)을 삭제 하지 않으면 의도와 다른 결과가 나옴-->
+                <td>data(2,2)</td>
+                <td>data(2,3)</td>
+                <td>data(2,4)</td>
+            </tr>
+            <tr>
+                <td>data(3,1)</td>
+                <td>data(3,2)</td>
+                <td>data(3,3)</td>
+                <td>data(3,4)</td>
+            </tr>
+
+        </table>
+        <h3>테이블확장- 세로 합치기2</h3>
+        <table border="1">
+            <tr>
+                <td>data(1,1)</td>
+                <td>data(1,2)</td>
+                <td>data(1,3)</td>
+                <td>data(1,4)</td>
+            </tr>
+            <tr>
+                <td>data(2,1)</td>
+                <td rowspan="2">data(2,2)</td>
+                <td>data(2,3)</td>
+                <td>data(2,4)</td>
+            </tr>
+            <tr>
+                <td>data(3,1)</td>
+                <!--<td>data(3,2)</td>-->
+                <td>data(3,3)</td>
+                <td>data(3,4)</td>
+            </tr>
+
+        </table>
+        <h3>테이블확장- 가로 세로 합치기</h3>
+        <table border="1">
+            <tr>
+                <td>data(1,1)</td>
+                <td>data(1,2)</td>
+                <td>data(1,3)</td>
+                <td>data(1,4)</td>
+            </tr>
+            <tr>
+                <td rowspan="2">data(2,1)</td>
+                <td colspan="2">data(2,2)</td>
+                <!--<td>data(2,3)</td>-->
+                <td>data(2,4)</td>
+            </tr>
+            <tr>
+                <!--<td>data(3,1)</td>-->
+                <td>data(3,2)</td>
+                <td>data(3,3)</td>
+                <td>data(3,4)</td>
+            </tr>
+
+        </table>
+
+        <h3>테이블 만들기 연습</h3>
+        <table border="1">
+            <tr>
+                <td colspan="2">모집직군</td>
+                <td>모집전공</td>
+                <td>비고</td>
+            </tr>
+            <tr>
+                <td colspan="2">생산기술직</td>
+                <td>화학공학</td>
+                <td rowspan="3">전공관련 자격증 우대</td>
+            </tr>
+            <tr>
+                <td rowspan="2">생산지원직</td>
+                <td>공무</td>
+                <td>기계, 전기</td>
+            </tr>
+            <tr>
+                <td>안전환경</td>
+                <td>안전, 환경</td>
+            </tr>
+            <tr>
+                <td colspan="2">연구개발직</td>
+                <td>화학, 화학공학</td>
+                <td>석사</td>
+            </tr>
+        </table>
+    </body>
+</html>

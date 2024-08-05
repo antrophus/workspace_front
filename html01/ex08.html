@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>html 공부</title>
+    </head>
+
+    <body>
+
+        목차
+        <ol>
+            <li><a href="./ex01.html">h1 ~ h6 요소</a></li>
+            <li><a href="./ex02.html">p(문단), br(줄바꿈), blockquote q(인용), strong b em i(강조) hr(구분)요소</a></li>
+            <li><a href="./ex03.html">ol 요소</a> </li>
+            <li><a href="./ex04.html"> img 요소 a 요소</a> </li>
+            <li><a href="./ex05.html"> table 요소</a> </li>
+            <li><a href="./ex06.html"> table 합치기 연습문제1</a> </li>
+            <li><a href="./ex07.html"> table 예제 [게시판] </a> </li>
+            <li>table 모든 요소 사용</li>
+            <li><a href="./ex09.html"> table 합치기 연습문제2</a> </li>
+            <li><a href="./ex10.html"> form - input(text - password) button</a> </li>
+            <li><a href="./ex11.html"> form - input(checkbox, radio)</a> </li>
+            <li><a href="./ex12.html"> form - select</a> </li>
+            <li><a href="./homework01/homework01.html"> 과제(01)_20240803 [인터넷개론]</li>
+            <li><a href="./homework01/homework02.html"> 과제(02)_20240803 [이력서]</a></li>
+        </ol>
+        <hr>
+
+        <h1>html공부</h1>
+        <h2>테이블 모든요소 사용</h2>
+
+        <!-- 요소(태그)는 의미에 맞게 쓰는게 중요하다
+         디자인(기본값)에 속지말자
+         읽어준다고 생각하자 -->
+
+        <table border="1">
+            <!-- 가로폭 원래는 css(스타일시트)에서 해야함
+                너무 복잡해져서 여기서 하는게 보통 -->
+            <colgroup>
+                <!-- 
+                <col style="width: 120;">
+                <col style="width: 70;">
+                <col style="width: 60;">
+                <col style="width: 80;">
+                <col style="width: 100;">
+                 -->
+                <col style="width: 30%;">
+                <col style="width: 10%;">
+                <col style="width: 15%;">
+                <col style="width: 20%;">
+                <col style="width: 25%;">
+            </colgroup>
+            <caption>제주특별자치도 학교현황</caption>
+            <thead>
+                <tr>
+                    <th>구분</th>
+                    <th>학교수</th>
+                    <th>학급수</th>
+                    <th>학생수</th>
+                    <th>교원수</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>유치원</th>
+                    <td>117</td>
+                    <td>252</td>
+                    <td>5547</td>
+                    <td>474</td>
+                </tr>
+                <tr>
+                    <th>초등학교</th>
+                    <td>111</td>
+                    <td>1720</td>
+                    <td>37686</td>
+                    <td>2632</td>
+                </tr>
+                <tr>
+                    <th>중학교</th>
+                    <td>44</td>
+                    <td>699</td>
+                    <td>21274</td>
+                    <td>1412</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>합계</th>
+                    <td>272</td>
+                    <td>2671</td>
+                    <td>64507</td>
+                    <td>4518</td>
+                </tr>
+            </tfoot>
+        </table>
+
+
+
+    
+    </body>
+</html>
