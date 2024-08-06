@@ -1,0 +1,33 @@
+@charset "utf-8";
+*{font-family: 맑은고딕; font-size: 17px;}
+h2{font-size:25px}
+h3{font-size:20px}
+.title{font-family: 궁서; font-size: 30px; letter-spacing: 15px;}
+
+/* #internet{font-style: italic;font-weight: bold; color: #0000ff;} */
+/* #sea{font-style: italic;font-weight: bold; color: #ff0000;} */
+/* #milnet{font-weight: bold; color: #ff0000;} */
+/* #good{font-weight: bold; color: #00ff00;} */
+/* #act{font-style: italic; color: #0000ff;} */
+/* #feature{font-weight: bold; color: #ff0000;} */
+
+.itl{font-style: italic;}
+.bld{font-weight: bold;}
+.blue{color: #0000ff;}
+.red{color: #ff0000;}
+.green{color: #00ff00;}
+h3.underline{text-decoration: underline;}
+div p{text-indent: 30px;}
+.bg-gray{background-color: #d9d9d9;}
+ul{list-style-type: square;}
+ol>li{list-style-type:none;}
+table th{background-color: #c8ebfa;}
+table tbody tr:hover{background-color: #edd3ed;}
+td>a:link{color: #ffffff; text-decoration: none;}
+td>a:visited{color: #ffffff;}
+td>a:hover{color: #0000ff; text-decoration: underline;}
+td>a:active{color: #0000ff; text-decoration: underline;}
+tbody>tr>:nth-child(2n)::before{content:"약 ";}
+tbody>tr>:nth-child(2n)::after{content:" (MB/초)";}
+tbody>tr>:nth-child(2n){text-align: right;}
+
