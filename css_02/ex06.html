@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+         <style>
+
+        .btn-gray{
+            display: inline-block;
+            width: 200px;
+            height: 50px;
+            
+            background-color: #bfbfbf;
+
+            border: 5px solid #a6a6a6;
+            border-radius: 10px;
+
+            cursor: pointer;
+
+            font-size: 25px;
+            text-align: center;
+            line-height: 50px; /*세로 높이 줄 간격 같은 숫자일때 세로 가운데 정렬 (한줄일때만 가능) */
+        }
+        .btn-gray:hover{
+            background-color: #a6a6a6;
+            border: 5px solid #808080;
+            color: #ffffff;
+        }
+        .btn-red{
+            width: 200px;
+            height: 50px;
+            
+            background-color: #f8a1a4;
+            border: 5px solid #f47378;
+            border-radius: 10px;
+
+            cursor: pointer;
+
+            font-size: 25px;
+            text-align: center;
+            line-height: 50px;
+        }
+        .btn-red:hover{
+            background-color: #b21016;
+            border: 5px solid #eb474b;
+            color: #ffffff;
+        }
+        .btn-blue{
+            width: 200px;
+            height: 50px;
+            
+            background-color: #84c9ff;
+            border: 5px solid #45a3f9;
+            border-radius: 10px;
+            
+            cursor: pointer;
+
+            font-size: 25px;
+            text-align: center;
+            line-height: 50px;
+        }
+        .btn-blue:hover{
+            background-color: #3c75d8;
+            border: 5px solid #25498f;
+            color: #ffffff;
+        }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="btn-gray">
+            저장버튼
+        </div>
+        <div class="btn-red">
+            삭제버튼
+        </div>
+        <div class="btn-blue">
+            수정버튼
+        </div>
+        <br>
+
+        <button class="btn-gray">저장버튼</button>
+
+    </body>
+
+</html>

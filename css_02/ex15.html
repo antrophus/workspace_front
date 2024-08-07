@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>스타일시트-박스모델</title>
+    <style>
+        ol>li{
+            float:left;
+            /* border: 1px solid #000000; */
+            padding-left: 5px ;
+            list-style-type: none;
+        }
+        li:not(:last-child)::after{content: " >";}
+    </style>
+</head>
+
+<body>
+    <ol>
+        <li>홈</li>
+        <li>게시판</li>
+        <li>일반게시판</li>
+        <li>리스트</li>
+    </ol>
+
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+         <style>
+            .box {
+                width: 300px;
+                height: 150px;
+                background-color: #ffff00;
+                border-width: 4px;
+                border-color: #ff0000;
+                /* border-style: dashed; */
+                border-top-style: solid;
+                border-right-style: double;
+                border-bottom-style: dashed;
+                border-left-style: dotted;
+            }
+            .box2 {
+                width: 300px;
+                height: 150px;
+                background-color: #ff00ff;
+                /*border-width: 4px;
+                  border-style: solid;
+                  border-color: #ff0000;
+                */
+                /* border: 1px solid #000000; */
+                border-top: 4px solid #ff0000;
+                border-right: 10px double #00ff00;
+                border-bottom: 15px dotted #00ffff;
+                border-left: 20px dashed #0000ff;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box2">
+            *위치별 선지정<br>
+            가로 300px, 세로 150px<br>
+            배경색 #ffff00<br>
+            선두께 모두 4p<br>
+            선모양 그림 참고<br>
+        </div><br><br>
+
+
+    <div class="box">
+        *위치별 선지정<br>
+        가로 300px, 세로 150px<br>
+        배경색 #ffff00<br>
+        선두께 모두 4p<br>
+        선모양 그림 참고<br>
+    </div>
+
+    <p class="box">
+        *위치별 선지정<br>
+        가로 300px, 세로 150px<br>
+        배경색 #ffff00<br>
+        선두께 모두 4p<br>
+        선모양 그림 참고<br>
+    </p>
+
+    
+        
+
+    </body>
+
+</html>

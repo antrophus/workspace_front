@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>스타일시트-박스모델</title>
+    <style>
+        ul>li:not(:last-child){
+            border-right: 2px solid #000000;
+        }
+        ul>li{
+            list-style-type: none;
+            float: left;
+            background-image: url(./img/star.jpg);
+            background-size: 11px 11px;
+            background-repeat: no-repeat;
+            background-position: left center;
+            padding-left: 11px;
+            padding-right: 20px;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>메뉴1</li>
+        <li>메뉴2</li>
+        <li>메뉴3</li>
+        <li>메뉴4</li>
+        <li>메뉴5</li>
+    </ul>
+</body>
+
+</html>

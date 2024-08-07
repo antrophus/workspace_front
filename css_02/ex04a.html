@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>스타일시트-박스모델_게시판리스트만들기 실습</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table>thead>tr>th{
+            background-color: #ddd;
+            color: #000;
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+        }
+        table>tbody>tr{
+            border-bottom: 1px dotted #000;
+        }
+        table>tbody>:last-child{
+            border-bottom: 1px solid #000;
+        }
+        table>tbody>tr:hover{
+            background-color: #ffff00;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <h1>mysite</h1>
+    <h2>게시판</h2>
+    <h3>일반게시판</h3>
+    <h4>리스트</h4>
+
+    <table>
+        <colgroup>
+            <col style="width: 50px">
+            <col style="width: 300px">
+            <col style="width: 80px">
+            <col style="width: 80px">
+            <col style="width: 150px">
+            <col style="width: 50px">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>번호</th>
+                <th>제목</th>
+                <th>글쓴이</th>
+                <th>조회수</th>
+                <th>작성일</th>
+                <th>관리</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>123</td>
+                <td><a href="">게시판 게시글입니다.</a></td>
+                <td>정우성</td>
+                <td>1232</td>
+                <td>ddddddd</td>
+                <td>삭제</td>
+            </tr>
+            <tr>
+                <td>123</td>
+                <td><a href="">게시판 게시글입니다.</a></td>
+                <td>정우성</td>
+                <td>1232</td>
+                <td>ddddddd</td>
+                <td>삭제</td>
+            </tr>
+            <tr>
+                <td>123</td>
+                <td><a href="">게시판 게시글입니다.</a></td>
+                <td>정우성</td>
+                <td>1232</td>
+                <td>ddddddd</td>
+                <td>삭제</td>
+            </tr>
+            <tr>
+                <td>123</td>
+                <td><a href="">게시판 게시글입니다.</a></td>
+                <td>정우성</td>
+                <td>1232</td>
+                <td>ddddddd</td>
+                <td>삭제</td>
+            </tr>
+            <tr>
+                <td>123</td>
+                <td><a href="">게시판 게시글입니다.</a></td>
+                <td>정우성</td>
+                <td>1232</td>
+                <td>ddddddd</td>
+                <td>삭제</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

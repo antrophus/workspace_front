@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>스타일시트-박스모델</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .box-red {
+            box-sizing: border-box;
+            width: 300px;
+            background-color: #ff0000;
+            color: aliceblue;
+            /* padding: 20px; => 전체 적용*/ 
+            /*
+            padding-top: 10px;
+            padding-right: 20px;
+            padding-bottom: 30px;
+            padding-left: 40px;
+            */
+            /* padding: 15px 25px 35px 45px; =>한 줄로 쓰기 */
+            padding: 10px 20px; /*=> 상하 좌우*/
+
+            /*----------------------------------------------*/
+
+            border: 1px solid #000;
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 30px;
+            margin-left: 40px;
+        }
+        .box-blue{
+            box-sizing: border-box;
+            width: 500px;
+            background-color: #0000ff;
+            color: white;
+            padding: 10px;
+            margin: 3px 0 0 10px ;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="box-red">
+        css에서 가장 보편적이고 많이 사용하는 마진과 패딩에 대한 값이 어떻게 적용되는지 확인해 보겠습니다.
+        여보세요. 효영이전화 아닌가요? 맞아요. 효영이 지금 씻어요. 아... 네... 어..허..하아ㅏ... 으어...아아...
+        너 누구냐. 어어ㅏ하아하아ㅏㅏ아아아아가아각악앙가 중대장님 탱크 한대만 주세요
+    </div>
+    
+    <div class="box-blue">
+        css에서 가장 보편적이고 많이 사용하는 마진과 패딩에 대한 값이 어떻게 적용되는지 확인해 보겠습니다.
+        여보세요. 효영이전화 아닌가요? 맞아요. 효영이 지금 씻어요. 아... 네... 어..허..하아ㅏ... 으어...아아...
+        너 누구냐.
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>스타일시트-박스모델</title>
+    <style>
+        ul>li, ol>li{
+            list-style: none;
+
+            background-image: url(./img/star.jpg);
+            background-repeat: no-repeat;
+            background-size: 11px 11px;
+            background-position: left center;
+
+            padding-left: 12px;
+        }
+        /* body>ul>li::before{} -> 가상 선택자 이용해서 하는 방법도 있으나 복잡함*/
+    </style>
+
+</head>
+
+<body>
+    <ul>
+        <li>인터넷의 경제성장 기여효과 </li>
+        <li>민간소비 투자 및 공공지출에 기여 </li>
+        <li>09년 전 세계에서 인터넷과 전 세계에서 인터넷과 관련된 소비지출 
+            규모는 1조 6,700억 달러로 캐나다나 스페인의 규모보다 큰 것으로 나타남</li>
+        <li>인터넷은 국가에 따라 GDP의 0.8 ~ 6.3%에 기여하며, 한국은 4.6%로 나타남</li>
+    </ul>
+
+</body>
+
+</html>
