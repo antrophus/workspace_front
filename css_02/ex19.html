@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .box-gray {
+            background-color: #808080;
+            width: 500px;
+            padding: 5px;
+        }
+
+        .box-red {
+            background-color: #ff0000;
+            width: 800px;
+
+        }
+
+        .box-blue {
+            background-color: #0000ff;
+            width: 200px;
+            float: left;
+        }
+
+        .box-green {
+            background-color: #00ff00;
+            width: 200px;
+            float: left
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .clearfix::after, .clearfix::before {
+            content: "";
+            display: block;
+            line-height: 0px;
+        }
+
+        .clearfix::after {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box-gray">
+        <div class="box-blue">
+            파란박스<br>
+            파란박스<br>
+            파란박스<br>
+            파란박스<br>
+            파란박스<br>
+            파란박스<br>
+            파란박스<br>
+
+        </div>
+        <div class="box-green">
+            초록박스<br>
+            초록박스<br>
+            초록박스<br>
+        </div>
+
+    </div>
+    <div class="box-red">
+        빨간박스<br>
+        빨간박스<br>
+        빨간박스<br>
+    </div>
+</body>
+
+</html>

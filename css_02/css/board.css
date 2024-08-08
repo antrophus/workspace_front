@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/*기본요소 초기화*/
+body, div, p, dl, dt, ol, ul, li,
+h1, h2, h3, h4, h5, h6, 
+form, input, select, textarea, button,
+fieldset, legend,  
+table, thead, tbody, tfoot, tr, th, td,   
+header, footer, main, nav, section, article, aside {
+    margin: 0;
+    padding: 0;
+}
+
+/* 기본 폼 요소 초기화 */
+input, button, textarea, select {
+    font-family: inherit; /* 폰트 패밀리 상속 */
+    font-size: inherit; /* 폰트 사이즈 상속 */
+    color: inherit;/* 텍스트 색상 상속 */
+}
+
+body {
+    padding: 10px;
+    font-family: "맑은 고딕";
+    font-size: 12px;
+    background-color: #808080;
+}
+
+.content {
+    width: 700px;
+    background-color: #fff;
+}
+
+.content h3{
+    font-size: 18px;
+    font-size: bold;
+    padding-bottom: 10px;
+}
+
+.content{
+    padding: 10px;
+}
+
+.content ol>li{
+    float: left;
+}
+
+.content ol>li::after{
+    content: ">";
+}
+
+.content ol>li:last-child::after{
+    content: "";
+}
+
+.clearfix::after, .clearfix::before{
+    content: "";
+    display: block;
+    line-height: 0px;
+}
+.clearfix::after{clear:both;}
+
+.content .form-group{
+    margin: 10px 0px;
+}
+
+.content .form-text{ /*여러곳에서 사용*/
+    display: inline-block;  /*왜 inline-block?*/
+    width: 80px;
+    text-align: left;
+}
+/*게시판 선택*/
+.content .form-group #sel-board{
+    width: 200px;
+}
+/*제목입력*/
+.content .form-group #txt-title{
+    width: 600px;
+}
+/*패스워드입력*/
+.content .form-group #txt-pw{
+    width: 196px;
+}
+/*공개범위 라디오버튼 name속성 사용*/
+.content .form-group input[name="scope"]{
+    margin-right: 10px;
+    vertical-align: middle;
+}
+/*허용범위 체크박스 type속성*/
+.content .form-group input[type="checkbox"]{
+    margin-right: 10px;
+    vertical-align: middle;
+}
+/* 내용 */
+.content .form-group .txt-content{
+    width: 686px;
+    height: 80px;
+
+}
+
+.content .btn-group{
+    border-top: 1px solid #000;
+    padding: 1% 40% ;
+    text-align: center;
+}
+/*버튼*/
+.content .btn-group button{
+    width: 60px;
+    height: 30px;
+}
+
+ul>li, ol>li{
+    list-style-type: none;
+}

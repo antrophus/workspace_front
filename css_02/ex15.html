@@ -8,10 +8,13 @@
         ol>li{
             float:left;
             /* border: 1px solid #000000; */
-            padding-left: 5px ;
             list-style-type: none;
+            
         }
-        li:not(:last-child)::after{content: " >";}
+        li:not(:last-child)::after{
+            content: ">";
+            margin: 0px 15px;
+        }
     </style>
 </head>
 

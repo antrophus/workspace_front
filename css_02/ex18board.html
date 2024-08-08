@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>게시판 글쓰기폼 연습</title>
+    <link rel="stylesheet" href="./css/board.css">
+</head>
+
+<body>
+    <div class="content">
+        <h3>일반게시판</h3>
+        <ol class="clearfix">
+            <li>홈</li>
+            <li>게시판</li>
+            <li>일반게시판</li>
+        </ol>
+        <div class="form-group">
+            <label class="form-text" for="sel-board">게시판선택</label>
+            <select id="sel-board">
+                <option value="">선택해주세요</option>
+                <option value="">공지사항</option>
+                <option value="">가입인사</option>
+                <option value="">유머게시판</option>
+                <option value="">기타게시판</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="form-text" for="txt-title">제목</label>
+            <input id="txt-title" name="text" value="" placeholder="제목을 입력해주세요">
+        </div>
+        <div class="form-group">
+            <label class="form-text" for="txt-pw">비밀번호</label>
+            <input id="txt-pw" type="password" name="" value="" placeholder="패스워드를 입력하세요">
+        </div>
+        <div class="form-group">
+            <span class="form-text">공개범위</span>
+
+            <label for="rdo-me">본인</label>
+            <input id="rdo-me" type="radio" name="scope" value="">
+
+            <label for="rdo-login">로그인회원</label>
+            <input id="rdo-login" type="radio" name="scope" value="">
+
+            <label for="rdo-friend">친구</label>
+            <input id="rdo-friend" type="radio" name="scope" value="">
+
+            <label for="rdo-all">전체</label>
+            <input id="rdo-all" type="radio" name="scope" value="">
+        </div>
+        <div>
+            <span class="form-text">허용범위</span>
+
+            <label for="">댓글허용</label>
+            <input id="" type="checkbox" name="" value="">
+
+            <label for="">답글허용</label>
+            <input id="" type="checkbox" name="" value="">
+
+            <label for="">좋아요허용</label>
+            <input id="" type="checkbox" name="" value="">
+        </div>
+        <div class="form-group">
+            <textarea class="txt-content"  placeholder="내용을 입력하세요"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label class="form-text">첨부파일</label>
+            <input id="fileInput" type="file" name="" value="">
+            
+        </div>
+
+        <div class="btn-group">
+            <button>등록</button>
+            <button>초기화</button>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/signup.css">
+</head>
+
+<body>
+    <div class="content">
+        <h3>회원가입</h3>
+        <ol>
+            <li>홈</li>
+            <li>유저</li>
+            <li>회원가입</li>
+        </ol>
+        <div class="form-group">
+            <label class="form-text" for="id">아이디</label>
+            <input id="id" type="text" name="" value="" placeholder="아이디를 입력하세요">
+        </div>
+        <div class="form-group">
+            <label class="form-text" for="pw">패스워드</label>
+            <input id="pw" type="password" name="" value="" placeholder="패스워드를 입력하세요">
+        </div>
+        <div class="form-group">
+            <label class="form-text" for="name">이름</label>
+            <input id="name" type="text" name="" value="" placeholder="이름을 입력하세요">
+        </div>
+        <div class="form-group">
+            <label class="form-text" for="photo">프로필사진</label>
+            <input id="photo" type="file" name="" value="">
+        </div>
+        <div class="form-group">
+            <label class="form-text" for="address">주소</label>
+            <input id="address" type="text" name="" value="주소벨류">
+            <button id="postalcode" type="button" name="post" value=""><a href="https://www.epost.go.kr/search.RetrieveIntegrationNewZipCdList.comm">우편번호찾기</a></button>
+            <input id="address2" type="text" name="" value="주소벨류">
+        </div>
+        <div class="form-group">
+            <label class="form-text" for="telecom">이동통신사</label>
+            <select id="telecom">
+                <option value="">선택해주세요</option>
+                <option value="">KT</option>
+                <option value="">SKT</option>
+                <option value="">LGU+</option>
+                <option value="">알뜰통신사</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <span class="form-text">나이</span>
+
+            <label for="tage">10대</label>
+            <input id="tage" type="radio" name="age" value="">
+
+            <label for="twty">20대</label>
+            <input id="twty" type="radio" name="age" value="">
+
+            <label for="thty">30대</label>
+            <input id="thty" type="radio" name="age" value="">
+
+            <label for="fty">40대</label>
+            <input id="fty" type="radio" name="age" value="">
+
+            <label for="guitar">기타</label>
+            <input id="guitar" type="radio" name="age" value="">
+        </div>
+        <div class="form-group">
+            <span class="form-text">혈액형</span>
+
+            <label for="type-a">A형</label>
+            <input id="type-a" type="radio" name="blood" value="">
+
+            <label for="type-b">B형</label>
+            <input id="type-b" type="radio" name="blood" value="">
+
+            <label for="type-o">O형</label>
+            <input id="type-o" type="radio" name="blood" value="">
+
+            <label for="type-ab">AB형</label>
+            <input id="type-ab" type="radio" name="blood" value="">
+        </div>
+        <div class="form-group">
+            <span class="form-text">취미</span>
+
+            <label for="read">독서</label>
+            <input id="read" type="checkbox" name="hobby" value="">
+
+            <label for="music">음악</label>
+            <input id="music" type="checkbox" name="hobby" value="">
+
+            <label for="trip">여행</label>
+            <input id="trip" type="checkbox" name="hobby" value="">
+            
+            <label for="movie">영화</label>
+            <input id="movie" type="checkbox" name="hobby" value="">
+
+            <label for="coding">코딩</label>
+            <input id="coding" type="checkbox" name="hobby" value="">
+
+            <label for="guitar">기타</label>
+            <input id="guitar" type="checkbox" name="hobby" value="">
+        </div>
+        <div class="form-group">
+            <span class="form-text">자기소개</span>
+            <textarea class="txt-content"  placeholder="내용을 입력하세요"></textarea>
+        </div>
+        <div class="btn-group">
+            <button>등록</button>
+            <button>초기화</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* 기본 요소 초기화 */
+body, div, p, dl, dt, ol, ul, li,
+h1, h2, h3, h4, h5, h6, 
+form, input, select, textarea, button,
+fieldset, legend,  
+table, thead, tbody, tfoot, tr, th, td,   
+header, footer, main, nav, section, article, aside {
+    margin: 0;
+    padding: 0;
+}
+
+/* 기본 폼 요소 초기화 */
+input, button, textarea, select {
+    font-family: inherit; /* 폰트 패밀리 상속 */
+    font-size: inherit; /* 폰트 사이즈 상속 */
+    color: inherit; /* 텍스트 색상 상속 */
+}
+
+ul>li, ol>li {
+    list-style-type: none;
+}
+
+/* clearfix */
+/* .clearfix{*zoom:1;} */
+.clearfix::before, .clearfix::after {
+    display: block; 
+    content: ""; 
+    line-height: 0;
+}
+.clearfix::after {clear: both;}
