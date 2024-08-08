@@ -1,14 +1,31 @@
 @charset "UTF-8";
 
-input, textarea, select {
-    font-family: 맑은 고딕; 
-    font-size: 15px; 
+input,
+textarea,
+select {
+    font-family: 맑은 고딕;
+    font-size: 15px;
 }
 
-a:link{color: #000000; text-decoration: none;}
-a:visited{color: #000000; text-decoration: none;}
-a:hover{color: #000000; text-decoration: none;}
-a:active{color: #000000; text-decoration: none;}
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:active {
+    color: #000000;
+    text-decoration: none;
+}
 
 body {
     padding: 10px;
@@ -22,76 +39,82 @@ body {
     background-color: #fff;
 }
 
-.content h3{
+.content h3 {
     font-size: 18px;
     font-size: bold;
     padding-bottom: 10px;
 }
 
-.content ol{
-    margin-bottom: 30px;
+.content ol {
+    margin-bottom: 20px;
 }
 
-.content ol>li{
+.content ol>li {
     float: left;
-    
 }
 
-.content ol>li::after{
+.content ol>li::after {
     content: ">";
 }
 
-.content ol>li:last-child::after{
+.content ol>li:last-child::after {
     content: "";
 }
 
-.content .form-group{
-    padding: 20px 0;
+.content .form-group {
+    padding: 12px 0;
     border-bottom: 1px solid #000;
 }
 
-.content .form-text{ /*여러곳에서 사용*/
-    display: inline-block;  /*왜 inline-block?*/
+.content .form-text {
+    /*여러곳에서 사용*/
+    display: inline-block;
+    /*왜 inline-block?*/
     width: 120px;
     text-align: center;
-    vertical-align: top; 
+    vertical-align: top;
     font-size: 12px;
 }
 
-#address2{
+#address2 {
     width: 450px;
-    margin: 10px 0 0 124px; 
+    margin: 10px 0 0 124px;
 }
 
 /*공개범위 라디오버튼 name속성 사용*/
-.content .form-group input[name="age"]{
+.content .form-group input[name="age"] {
     margin-right: 15px;
     vertical-align: middle;
 }
 
-.content .form-group input[name="blood"]{
+.content .form-group input[name="blood"] {
     margin-right: 15px;
     vertical-align: middle;
 }
 
-.content .form-group input[name="hobby"]{
-    margin-right: 15px;
+.content .form-group input[name="hobby"] {
+    margin-right: 20px;
     vertical-align: middle;
 }
 
-.content .form-group .txt-content{
+.content .form-group .txt-content {
     width: 450px;
     height: 100px;
-
 }
 
-.content .btn-group{
+.content .form-group span~label{
+    font-size: 15px;
+    font-family: 맑은 고딕;
+}
+
+.content .btn-group {
     border-top: 1px solid #000;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 0px;
 }
+
 /*버튼*/
-.content .btn-group button{
+.content .btn-group button {
     width: 120px;
-    height: 30px;
+    height: 40px;
 }
