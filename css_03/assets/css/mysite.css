@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+/*레이아웃*/
+#wrap {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#wrap #contents{ /*가로 1단 - 메인페이지*/
+    padding: 30px 20px;
+}
+
+#wrap #contents2{ /*가로 2단 모든페이지*/ 
+    padding: 20px 0;
+}
+
+#wrap #contents2 #aside{ 
+    float:left;;
+    width: 180px;
+}
+
+#wrap #contents2 #main{ 
+    float: left;
+    width: 805px;
+    margin-left: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+#wrap #footer{
+    padding: 15px 0;;
+    background-color: #e7eaed;
+    text-align: center;
+}
+
+#wrap #nav{
+    border-bottom: 1px solid #ddd;
+}
+
+/* 헤더 */
+#header{
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#header h1{
+    float:left;
+    font-size: 35px;
+    font-weight: bold;
+    color: #79b30b;
+}
+
+#header ul {
+    float:right;
+    margin-top: 14px;
+}
+
+#header ul>li{
+    float:left;
+    padding: 3px 5px;
+    margin-left: 10px;
+    background-color: #fff;
+    font-size: 10px;
+    border-radius: 3px;
+    border: 1px solid #c0c0c0;
+}
+
+/* 네비(상단메뉴) */
+#nav ul{
+padding: 15px 0;
+}
+
+#nav ul>li{
+    box-sizing: border-box;
+    float: left;
+    width: 250px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*메인페이지 컨텐츠*/
+#contents #profile{
+    float: left;
+    width: 300px;
+    margin-right: 30px;
+}
+
+#contents #greeting-box{
+    float: left;
+    font-size: 18px;
+}
+
+#contents #greeting-box .greeting{
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+/* 푸터(하단바) */
+#footer p{
+    font-size: 15px;;
+}
+
+/*aside*/
+#aside h2{
+    background-color: #ddd;
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px; /*세로 중심에 놓으려면 높이와 라인높이를 같은 숫자로 한다.*/
+}
+
+#aside ul>li{
+    border: 1px solid #a6a6a6;
+    font-size: 15px;
+    padding: 8px 0 8px 10px;
+    margin-top: 5px;
+}
+
+/* main */
+#main h3{
+    float:left;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+#main ul{
+    float:right;
+}
+
+#main ul>li{
+    float: left;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+#main ul>li:not(:last-child)::after{
+    content:">";
+    margin: 0 10px ;
+}
+
+
+
+#serch {
+    background-color: #fff;
+    float: right;
+    margin-top:20px
+    
+}
+
+#serch #bar{
+    border:1px solid #c0c0c0;
+    border-radius: 5px;
+    width: 130px;
+    height: 25px;
+    
+    
+}
+
+#serch #btn-click{
+    width: 60px;
+    height: 27px;
+    
+}
+
+.form-box{
+    /* background-color: #79b30b; */
+    width: 1000px;
+    height: 100px;
+}
+
+.base-board{
+    padding-left: 195px;
+}
+
+.board{
+    font-size: 13px;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+.board>thead>tr>th{
+    background-color: #dcdcdc;
+    color: #000;
+    border-top: 2px solid #747474;
+    border-bottom: 2px solid #747474;
+    height: 40px;
+}
+.board>tbody>tr{
+    border-bottom: 1px solid #747474;
+    height: 40px;
+}
+
+.board>tbody>tr:hover{
+    background-color: #ddfae9;
+}
+.board>tbody td:nth-child(2){
+    text-align: left;
+    padding-left: 15px;
+}
+
+#num ul{
+    padding: 15px 0px 0 450px;
+    
+    }
+    
+#num ul>li{
+        box-sizing: border-box;
+        float: left;
+        width: 25px;
+        text-align: center;
+        font-size: 10px;
+    }
+#num ul>li:nth-child(6){
+    content: "";
+    font-weight: bold;
+}
+#write{
+    float: right;
+    width: 70px;
+    height: 40px;
+}
+#btn-write{
+    width: 70px;
+    height: 30px;
+}

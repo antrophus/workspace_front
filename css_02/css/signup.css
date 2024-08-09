@@ -71,9 +71,10 @@ body {
     display: inline-block;
     /*왜 inline-block?*/
     width: 120px;
+    font-size: 12px;
     text-align: center;
     vertical-align: top;
-    font-size: 12px;
+    
 }
 
 #address2 {
@@ -117,4 +118,11 @@ body {
 .content .btn-group button {
     width: 120px;
     height: 40px;
+    padding: 10px;
+}
+
+#postalcode{
+    width: 120px;
+    height: 25px;
+    vertical-align:6%;
 }
