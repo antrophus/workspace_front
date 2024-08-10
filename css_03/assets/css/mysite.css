@@ -142,40 +142,34 @@ padding: 15px 0;
     margin: 0 10px ;
 }
 
-
-
+/*검색바*/
 #serch {
     background-color: #fff;
     float: right;
     margin-top:20px
-    
 }
-
 #serch #bar{
     border:1px solid #c0c0c0;
     border-radius: 5px;
     width: 130px;
     height: 25px;
-    
-    
 }
-
 #serch #btn-click{
     width: 60px;
     height: 27px;
     
 }
-
+/*간격조절용*/
 .form-box{
     /* background-color: #79b30b; */
     width: 1000px;
-    height: 100px;
+    height: 110px;
 }
 
+/*게시판 목록*/
 .base-board{
     padding-left: 195px;
 }
-
 .board{
     font-size: 13px;
     border-collapse: collapse;
@@ -193,7 +187,6 @@ padding: 15px 0;
     border-bottom: 1px solid #747474;
     height: 40px;
 }
-
 .board>tbody>tr:hover{
     background-color: #ddfae9;
 }
@@ -201,12 +194,10 @@ padding: 15px 0;
     text-align: left;
     padding-left: 15px;
 }
-
+/*게시판 하단 페이지 수 표시*/
 #num ul{
     padding: 15px 0px 0 450px;
-    
     }
-    
 #num ul>li{
         box-sizing: border-box;
         float: left;
@@ -218,6 +209,7 @@ padding: 15px 0;
     content: "";
     font-weight: bold;
 }
+/*쓰기 버튼*/
 #write{
     float: right;
     width: 70px;
@@ -226,4 +218,116 @@ padding: 15px 0;
 #btn-write{
     width: 70px;
     height: 30px;
+}
+/*게시판 읽기*/
+#info-field{
+    padding: 70px 0 10px 195px;
+}
+#info-form{
+    float: left;
+    margin-right: 20px;
+    
+    font-size: 13px;
+    line-height: 25px;
+}
+#info-text{
+    float: left;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 25px;
+}
+/*읽기 본문*/
+#main-field{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0 10px 15px;
+    margin-left: 195px;
+    font-size: 12px;
+}
+/*목록 수정 버튼*/
+#ed_lst{
+    padding-top: 10px;
+    float: right;
+    width: 151px;
+    height: 40px;
+}
+#btn-ed{
+    width: 70px;
+    height: 30px;
+    margin-right: 5px;
+}
+#btn-ed_lst{
+    width: 70px;
+    height: 30px;
+}
+/*목록 수정 버튼*/
+#sub_lst{
+    padding-top: 10px;
+    float: right;
+    width: 151px;
+    height: 40px;
+}
+#btn-sub{
+    width: 70px;
+    height: 30px;
+    margin-right: 5px;
+}
+#btn-cls{
+    width: 70px;
+    height: 30px;
+}
+/*쓰기 제목*/
+#title-field{
+    float: left;
+    width: 805px;
+    height: 40px;
+    padding: 20px 0 0 15px;
+}
+#title{
+    margin-right: 20px;
+    font-size: 13px;
+}
+/*쓰기 제목바*/
+#bar_title{
+    width: 749px;
+}
+/*쓰기 본문*/
+#wr-area{
+    float: left;
+    width: 805px;
+    height: 300px;
+    padding-left: 13px;
+}
+#wr-area #write-space{
+    width: 805px;
+    height: 300px;
+}
+/*수정 제목바*/
+#bar_title2{
+    width: 742px;
+}
+#ed-area{
+    float: right;
+    width: 805px;
+    height: 300px;
+    padding-left: 13px;
+}
+#ed-area #ed-space{
+    width: 803px;
+    height: 300px;
+}
+
+#ed_lst{
+    width: 190px;
+    text-align: right;
+}
+/*갤러리*/
+#upimg{
+    background-color: #fff;
+    float: right;
+    margin-top:10px
+}
+#upimg #btn-upimg{
+    width: 120px;
+    height: 45px;
 }
