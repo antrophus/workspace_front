@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+#edit_field {
+    padding: 60px 0 30px 200px;
+}
+
+#edit_field>#edit_form {
+    width: 330px;
+    margin: 0 auto;
+    padding: 40px 100px 50px 120px;
+    border: 1px solid #ddd;
+}
+
+#edit_field>#edit_form .edit_fix {
+    float: left;
+    text-align: right;
+    padding-bottom: 15px;
+    margin: 4px 20px 0px 0;
+}
+
+#edit_field>#edit_form .edit_fix li {
+    padding: 4px 0;
+}
+
+#edit_field>#edit_form li {
+    margin-bottom: 25px;
+}
+
+#edit_field>#edit_form>#edit_input li {
+    margin-bottom: 17px;
+    padding: 7px
+}
+
+#edit_sub {
+    padding: 50px 0 00px 105px;
+}
+
+#edit_sub>#btn_edit {
+    width: 130px;
+    padding: 3px;
+}
+
+#edit_input>#gender>#boy {
+    margin-right: 10px;
+}

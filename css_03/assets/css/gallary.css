@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/*갤러리*/
+#upimg{
+    background-color: #fff;
+    float: right;
+    margin-top:10px
+}
+#upimg #btn-upimg{
+    width: 120px;
+    height: 45px;
+}
+/*사진 테이블*/
+#gal-field{
+    padding-left: 190px;
+    margin-bottom: 20px;;
+}
+
+#gal-table>tbody>tr>td{
+    
+    padding: 1px 1px 1px 10px;
+}
+
+.photo{
+    float: right;
+    width: 190px ;
+}

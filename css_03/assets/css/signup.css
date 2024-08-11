@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+#sign_field {
+    padding: 60px 0 30px 200px;
+}
+
+#sign_field>#sign_form {
+    width: 350px;
+    margin: 0 auto;
+    padding: 40px 100px 50px 120px;
+    border: 1px solid #ddd;
+}
+
+#sign_field>#sign_form .sign_fix {
+    float: left;
+    text-align: right;
+    padding-bottom: 15px;
+    margin: 6px 20px 0px 0;
+}
+
+#sign_field>#sign_form .sign_fix li {
+    padding: 4px 0;
+}
+
+#sign_field>#sign_form li {
+    margin-bottom: 25px;
+}
+
+#sign_field>#sign_form>#sign_input li {
+    margin-bottom: 14px;
+    padding: 5px
+}
+
+#sign_field>#sign_form>#sign_input>li>input{
+    padding: 3px 0;
+} 
+
+/*radio, checkbox*/
+#sign_input>#gender>#boy, #girl{
+    margin: 7px 10px 0 0;
+}
+#sign_input>#agree>#tos{
+    margin-top: 14px;
+}
+
+/*회원가입 버튼*/
+#sign_sub {
+    padding: 50px 0 00px 105px;
+}
+
+#sign_sub>#btn_sign {
+    width: 130px;
+    padding: 3px;
+}

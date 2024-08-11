@@ -321,13 +321,3 @@ padding: 15px 0;
     width: 190px;
     text-align: right;
 }
-/*갤러리*/
-#upimg{
-    background-color: #fff;
-    float: right;
-    margin-top:10px
-}
-#upimg #btn-upimg{
-    width: 120px;
-    height: 45px;
-}

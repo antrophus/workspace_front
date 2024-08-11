@@ -6,7 +6,7 @@
     <title>게시판</title>
     <link rel="stylesheet" href="../../assets/css/reset.css">
     <link rel="stylesheet" href="../../assets/css/mysite.css">
-    <link rel="stylesheet" href="../../assets/css/login.css">
+    <link rel="stylesheet" href="../../assets/css/signup.css">
 </head>
 
 <body>
@@ -48,28 +48,45 @@
             </div>
             <div id="main" class="clearfix">
                 <!-- 게시판제목 -->
-                <h3>로그인</h3>
+                <h3>회원가입</h3>
 
                 <!-- 빵부스러기-->
                 <ul class="clearfix">
                     <li><a href="../main/index.html">홈</a></li>
-                    <li><a href="./editUser.html">회원</a></li>
-                    <li><a href="./loginForm.html">로그인</a></li>
+                    <li><a href="./loginForm.html">회원</a></li>
+                    <li><a href="./signup.html">회원가입</a></li>
                 </ul>
             </div>
             <!-- 방문자 정보 -->
-            <div id="login_field">
-                <div id="login_form">
-                    <ul class="login_fix" class="clearfix">
-                        <li><label for="user_id">아이디</label></li>
-                        <li><label for="user_pass">비밀번호</label></li>
+            <div id="sign_field">
+                <div id="sign_form">
+                    <ul class="sign_fix" class="clearfix">
+                        <li><label>아이디</label></li>
+                        <li><label for="user_pw">비밀번호</label></li>
+                        <li><label for="user_name">이름</label></li>
+                        <li><label for="user_gender">성별</label></li>
+                        <li><label for="tos">약관동의</label></li>
                     </ul>
-                    <ul id="login_input">
-                        <li><input id="user_id" type="text" placeholder="아이디를 입력하세요"></li>
-                        <li><input id="user_pass" type="password" placeholder="비밀번호를 입력하세요"></li>
+                    <ul id="sign_input">
+                        <li>
+                            <input id="user_id" type="text" placeholder="아이디를 입력하세요">
+                            <button>중복체크</button>
+                        </li>
+                        <li><input id="user_pw" type="password" placeholder="비밀번호를 입력하세요"></li>
+                        <li><input id="user_name" type="text" placeholder="이름을 입력하세요"></li>
+                        <li id="gender">
+                            <label for="boy">남</label>
+                            <input id="boy" type="radio" name="gender">
+                            <label for="girl">여</label>
+                            <input id="girl" type="radio" name="gender">
+                        </li>
+                        <li id="agree">
+                            <input id="tos" type="checkbox" name="agree">
+                            <label for="tos">서비스 약관에 동의합니다.</label>
+                        </li>
                     </ul>
-                    <div id="login_sub">
-                        <button id="btn_login">로그인</button>
+                    <div id="sign_sub">
+                        <button id="btn_sign">회원가입</button>
                     </div>
                 </div>
             </div>

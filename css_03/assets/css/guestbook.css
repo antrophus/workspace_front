@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+#visitor_info{
+    padding: 65px 0 0 195px;
+}
+#visitor_info>#guest_sub{
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+#visitor_info>#guest_sub>thead>tr>th{
+    padding: 3px;
+    height: 25px;
+    font-weight:500;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+/*이름, 패스워드 입력 칸*/
+#visitor_info>#guest_sub>thead>tr .bar{
+    width: 323px;
+}
+#visitor_info>#guest_sub>thead>tr>:not(:nth-child(2n)){
+    width: 60px;
+}
+#visitor_info>#guest_sub>tbody>tr>td{
+    padding: 4px;
+    border: 1px solid #ddd;
+    
+}
+/*방명록 본문*/
+#visitor_info>#guest_sub>tbody>tr #write-space{
+    width: 793px;
+    height: 200px;
+}
+/*등록 버튼*/
+#visitor_info>#guest_sub>tbody>tr #btn-gst{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    
+}
+#visitor_info>#guest_sub>tbody>tr:last-child{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/*방명록리스트*/
+#visitor_history{
+    padding: 10px 0 0 195px;
+}
+#visitor_history>#guest_history{
+    border: 1px solid #ddd;
+    width: 805px;
+    padding:5px;
+}
+#visitor_history>#guest_history>thead>tr>th{
+    padding: 3px 0 3px 10px;
+    height: 25px;
+    font-weight:500;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+#visitor_history>#guest_history>tbody>tr>td{
+    padding: 3px 0 3px 10px;
+    height: 25px;
+    font-size: 13px;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>게시판</title>
+    <link rel="stylesheet" href="../../assets/css/reset.css">
+    <link rel="stylesheet" href="../../assets/css/mysite.css">
+    <link rel="stylesheet" href="../../assets/css/guestbook.css">
+</head>
+
+<body>
+    <div id="wrap"> <!-- 전체 레이아웃 만들기 -->
+
+        <!-- 헤더 -->
+        <div id="header" class="clearfix">
+            <!--로고-->
+            <h1><a href="#">MySite</a></h1>
+
+            <!-- 로그인 관련 버튼 -->
+            <ul class="clearfix">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+        </div>
+        <!-- //헤더 끝남 -->
+
+        <!-- 네비(상단메뉴 GNB)-->
+        <div id="nav">
+            <ul class="clearfix">
+                <li><a href="#">입사지원서</a></li>
+                <li><a href="#">게시판</a></li>
+                <li><a href="#">갤러리</a></li>
+                <li><a href="#">방명록</a></li>
+            </ul>
+        </div>
+        <!-- //네비(상단메뉴 GNB) 끝남-->
+
+        <!-- 컨텐츠 -->
+        <div id="contents2" class="clearfix">
+            <div id="aside">
+                <h2>방명록</h2>
+                <ul>
+                    <li><a href="#">일반방명록</a></li>
+                    <li><a href="#">ajax방명록</a></li>
+                </ul>
+            </div>
+            <div id="main" class="clearfix">
+                <!-- 게시판제목 -->
+                <h3>일반방명록</h3>
+
+                <!-- 빵부스러기-->
+                <ul class="clearfix">
+                    <li><a href="#">홈</a></li>
+                    <li><a href="#">방명록</a></li>
+                    <li><a href="#">일반방명록</a></li>
+                </ul>
+            </div>
+            <!-- 방문자 정보 -->
+            <div id="visitor_info">
+                <table id="guest_sub">
+                    <thead>
+                        <tr>
+                            <th><label for="name" class="gst_sub">이름</label></th>
+                            <th><input id="name" class="bar" type="text"></th>
+                            <th><label for="pass" class="gst_sub">패스워드</label></th>
+                            <th><input id="pass" class="bar" type="password"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="4"><textarea id="write-space"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><button id="btn-gst">등록</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <div id="visitor_history">
+                    <table id="guest_history">
+                        <colgroup>
+                            <col style="width: 90px">
+                            <col style="width: 310px">
+                            <col style="width: 310px">
+                            <col style="width: 90px">
+                        </colgroup>
+                        <thead>
+                            <tr class="gst_head">
+                                <th><label class="">1234555</label></th>
+                                <th>이정재</th>
+                                <th>2020-03-03 12:12:12</th>
+                                <th><a href="#">[삭제]</a></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="gst_body">
+                                <td colspan="4">방명록 글입니다. 방명록 글입니다.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div>
+                <div id="visitor_history">
+                    <table id="guest_history">
+                        <colgroup>
+                            <col style="width: 90px">
+                            <col style="width: 310px">
+                            <col style="width: 310px">
+                            <col style="width: 90px">
+                        </colgroup>
+                        <thead>
+                            <tr class="gst_head">
+                                <th><label class="">1234555</label></th>
+                                <th>이정재</th>
+                                <th>2020-03-03 12:12:12</th>
+                                <th><a href="#">[삭제]</a></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="gst_body">
+                                <td colspan="4">방명록 글입니다. 방명록 글입니다.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- //컨텐츠 끝남 -->
+
+        <div id="footer">
+            <p>Copyright &#169; 2024 함&nbsp;민규. All right reserved</p>
+        </div>
+    </div>
+</body>
+
+</html>
