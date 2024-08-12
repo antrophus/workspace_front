@@ -44,4 +44,5 @@
 #login_sub #btn_login {
     width: 100px;
     padding: 5px;
+    cursor: pointer;
 }

@@ -38,6 +38,7 @@
 #edit_sub>#btn_edit {
     width: 130px;
     padding: 3px;
+    cursor: pointer;
 }
 
 #edit_input>#gender>#boy {

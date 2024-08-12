@@ -51,4 +51,8 @@
 #sign_sub>#btn_sign {
     width: 130px;
     padding: 3px;
+    cursor: pointer;
+}
+#sign_field>#sign_form>#sign_input>li>button{
+    cursor: pointer;
 }
