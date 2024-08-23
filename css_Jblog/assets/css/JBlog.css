@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/*레이아웃*/
+#wrap {
+    margin: 0, auto;
+    width: 1000px;
+    background-color: darkgoldenrod;
+}
+
+#wrap #footer{
+    padding: 15px 0;;
+    background-color: #e7eaed;
+    text-align: center;
+}
+
+#wrap #nav{
+    border-bottom: 1px solid #ddd;
+}
+
+/* 헤더 */
+#header{
+    padding: 10px 700px;
+    background-color: #ff8484;
+}
+
+#header h1{
+    float:left;
+    font-size: 35px;
+    font-weight: bold;
+    color: #79b30b;
+}
+
+
+
+#header ul>li{
+    float:left;
+    padding: 3px 5px;
+    margin-left: 10px;
+    background-color: #fff;
+    font-size: 10px;
+    border-radius: 3px;
+    border: 1px solid #c0c0c0;
+}
+
+/* 네비(상단메뉴) */
+#nav ul{
+padding: 15px 0;
+}
+
+#nav ul>li{
+    box-sizing: border-box;
+    float: left;
+    width: 250px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
