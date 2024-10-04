@@ -36,10 +36,9 @@
 } 
 
 /*radio, checkbox*/
-#sign_input>#gender>#boy, #girl{
-    margin: 7px 10px 0 0;
-}
-#sign_input>#agree>#tos{
+
+.joinform-group li, #tos{
+    list-style-type: none;
     margin-top: 14px;
 }
 
